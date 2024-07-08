@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    color: white;
+    background-color: black;
+    background-image: url(istockphoto-1437816897-612x612.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  .flex {
+    border: 1px solid white;
+    width: 500px;
+    background-color: white;
+    box-shadow: 10px 10px 20px 10px rgb(36, 35, 35);
+  }
+  .h2 {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+  }
+  .h2 p {
+    color: white;
+  }
+  .h3 {
+    font-size: 25px;
+    font-weight: 10;
+    color: black;
+    margin-bottom: 5px;
+  }
+  .flex a {
+    text-decoration: none;
+    color: aqua;
+  }
+  p {
+    margin-bottom: 15px;
+    color: black;
+  }
+  .gap {
+    padding: 15px;
+  }
+  .abutton  {
+    border-radius: 10px;
+    border: 1px solid aqua;
+    background-color: aqua;
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  .link {
+    text-align: left;
+  }
+  .center {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+    .clas {
+      background-color: aqua;
+      width: 100px;
+      margin-top: 50px;
+      margin-bottom: 10px;
+      margin-right: 10px;
+      opacity: 0.7;
+      height: 25px;
+    }
+    .clas img:hover {
+      opacity: 0.5;
+      background-color: white;
+    }
+    .clas img {
+      width: 20px;
+    }
+
+    
+      

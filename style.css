@@ -1,0 +1,377 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+.emma {
+    background-image: url(netflix\ heroimg.jpg) ;
+    background-color: rgb(0 0 0 / 80%);
+    position: relative;
+    z-index: 100;
+    
+}
+.emm {
+    background-image: linear-gradient( to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 100%, rgba(0, 0, 0, 0.8) 50% );
+    background-color: rgb(0 0 0 / 50%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    align-items: center;
+    width: 100%;
+}
+b {
+    color: red;
+    font-size: 60px;
+    opacity: 0.9;
+    font-weight: bolder;
+    margin-right: -15px;
+}
+.sign a{
+    z-index: 100;
+    width: 100px;
+    height: 39px;
+    background-color: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    position: relative;
+    font-weight: 600;
+    z-index: 100;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    opacity: none;
+    gap: -10px;
+}
+.logo img {
+    z-index: 100;
+    position: relative;
+    width: 200px;
+}
+.body1 {
+    display: flex;
+    border-bottom: 4px solid rgb(66, 66, 66);
+    width: 100%;
+    padding-bottom: 150px;
+    z-index: 100;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+ h1 {
+    color: white;
+    font-size: clamp(50px, 2.5vw, 70px);
+    font-weight: 900;
+    text-align: center;
+}
+.body1 p {
+    font-size: clamp(15px, 2.5vw, 23px);
+    color: white;
+    font-weight: 200;
+}
+form {
+    display: flex;
+    gap: 20px;
+}
+input {
+    background-color: transparent;
+    color: #fff;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+button {
+    background-color: black;
+    border: none;
+}
+button input{
+    background-color: #e50914;
+    color: #fff;
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    font-size: clamp(10px,2.5vw,20px);
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    gap: 4px;
+}
+.body2 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 100px;
+    border-bottom: 4px solid rgb(66, 66, 66);
+    padding-bottom: 150px;
+
+}
+ h2 {
+    color: white;
+    font-size: clamp(50px, 2.5vw, 70px);
+    font-weight: 900;
+    text-align: center;
+}
+p {
+    color: white;
+    font-size: clamp(15px, 2.5vw, 20px);
+    font-weight: 400;
+    text-align: center;
+}
+.img1{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    width:100%;
+    justify-content: center;
+    gap: 100px;
+    
+}
+
+.body3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    color: white;
+    gap: 100px;
+    border-bottom: 4px solid rgb(66, 66, 66);
+    padding-bottom: 150px;
+}
+.img2 {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    gap: 50px;
+    border-radius: 10px;
+    width: 600px;
+}
+.ella {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.dan p{
+    font-size: 10px;
+}
+.sam  {
+    color: blue;
+}
+.daniel {
+    display: none;
+    background-color:rgb(68, 68, 68) ;
+    padding: 20px 0px;
+}
+.daniel p {
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.body4 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 0px 200px;
+    justify-content: center;
+    margin-top: 70px;
+    border-bottom: 4px solid rgb(66, 66, 66);
+    padding-bottom: 100px;
+}
+.body4 h1 {
+    margin-bottom: 50px;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(45,45,45) ;
+    gap: 500px;
+    padding: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 100px;
+    width: 100%;
+    border: 2px solid black;
+}
+.button {
+    margin-bottom: 50px;
+}
+.button button:hover {
+    background-color:rgb(78,78,78) ;
+    transition: 0.5s;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 70px;
+    padding-bottom: 0px;
+}
+.me {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: grey;
+    margin-bottom: 50px;
+    font-size: 15px;
+}
+.div {
+    display: flex;
+    flex-direction: column;
+}
+a:hover {
+    color: white;
+}
+a:focus {
+    color: white;
+}
+.footer img {
+    width: 100px;
+}
+.flist {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.list1 {
+    display:flex;
+    flex-direction: column;
+    color: grey;
+    width: 100%;
+    font-size: 15px;    
+}
+.list:hover {
+    color: white;
+}
+div .list {
+    text-align: left;
+    text-decoration-line:underline;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.arrow-1 {
+    transition: all;
+}
+@media screen and (max-width:1300px) {
+    .navbar {
+        padding: 10px 20px;
+    }
+    b {
+        font-size: 60px;
+    }
+    .body2 {
+        flex-direction: column;
+    }
+    .body3 {
+        flex-direction: column;
+    }
+    .body4 {
+        flex-direction: column;
+    padding: 0px 50px;
+
+    }
+    .button button {
+        gap: 400px;
+    }
+    
+}
+@media screen and (max-width:700px) {
+    .navbar {
+        padding: 5px 10px;
+    }
+    .logo {
+        gap: 10px;
+    }
+    b {
+        font-size: 30px;
+    }
+    .logo img {
+        width: 100px;
+    }
+    form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    input {
+        width: 250px;
+    }
+    .body2 img{
+        width: 100%;
+    }
+    .body3 img{
+        width: 100%;
+    }
+    .body4 {
+        padding: 0px 20px;
+    }
+    .body4 img{
+        width: 100%;
+    }
+    .button img {
+        width: 30px;
+    }
+    .button button {
+        gap: 100px;
+        padding: 20px;
+    }
+    .me {
+        flex-direction: column;
+        gap: 20px;
+        justify-content: left;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .footer {
+        align-items: flex-start;
+        padding: 0px 20px;
+    }
+    .flist {
+        flex-direction: column;
+        align-items: self-start;
+        justify-content: left;
+        gap: 10px;
+    }
+    .img2 {
+        width: 100%;
+    }
+}
